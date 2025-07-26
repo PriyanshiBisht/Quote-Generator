@@ -2,7 +2,8 @@ function getQuote() {
   fetch('https://api.api-ninjas.com/v1/quotes', {
     method: 'GET',
     headers: {
-      'X-Api-Key':'J1DYbb+qrpUXNdB5wsoQYg==PpYdQX0d7oqEcnZy'
+   
+      'X-Api-Key': 'YOUR_API_KEY_HERE'
       
     }
   })
