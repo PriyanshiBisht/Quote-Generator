@@ -1,0 +1,41 @@
+.button{
+padding: 10px 20px;
+  background-color: #00c88f;
+  border: none;
+  color: black;
+  font-size: 16px;
+  border-radius: 15px;
+font-family: 'Poppins', sans-serif;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #ff6f61;
+}
+
+body{
+  background: linear-gradient(to bottom right, #a1ffce, #faffd1);
+  height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quote_box{
+border: 2px solid black;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #e0fff0;
+  max-width: 300px;
+box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+#quote {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+ background: linear-gradient(to bottom right,#00c9ff,#92fe9d
+);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
